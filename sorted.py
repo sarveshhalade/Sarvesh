@@ -9,7 +9,6 @@ tup = (3, 6, 8, 2, 78, 1, 23, 45, 9)
 sorted_tup = sorted(tup)
 print(sorted_tup)  
 
-
 words = ["apple", "banana", "cherry"]
 words.sort(key=lambda word: word[-1])
 print(words)  

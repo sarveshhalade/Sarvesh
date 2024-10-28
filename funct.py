@@ -38,5 +38,7 @@ async def fetch_data(delay):
 
 async def main():
     result=await fetch_data(2)
-    print(result) 
+    print(result)
+    
+     
     
